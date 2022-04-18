@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".UpdateUserActivity">
+
+    <TextView
+        android:id="@+id/lblAddNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Nama"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/txtUpdateFieldName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Titanic"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/lblAddKelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Gender"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/spinnerUpdateGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/lblAddUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Umur"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/txtUpdateFieldAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="10 Tahun"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/lblAddStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Status"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:id="@+id/spinnerUpdateStatus"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lblAddLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location (Latitude/Longitude)"
+        android:fontFamily="sans-serif-black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/txtUpdateFieldLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Update Data" />
+
+</LinearLayout>
